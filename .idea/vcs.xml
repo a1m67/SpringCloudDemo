@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-calculation-serv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-calculation-serv/coupon-calculation-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-calculation-serv/coupon-calculation-impl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-customer-serv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-dao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-customer-serv/coupon-customer-impl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-template-serv" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-template-serv/coupon-template-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-template-serv/coupon-template-dao" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/coupon-template-serv/coupon-template-impl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/middleware" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="coupon-customer-dao" />
+        <module name="coupon-customer-impl" />
+        <module name="SrpingCloudDemo" />
+        <module name="coupon-calculation-serv" />
+        <module name="coupon-calculation-impl" />
+        <module name="coupon-customer-serv" />
+        <module name="coupon-calculation-api" />
+        <module name="coupon-template-dao" />
+        <module name="coupon-template-serv" />
+        <module name="coupon-template-impl" />
+        <module name="coupon-customer-api" />
+        <module name="coupon-template-api" />
+        <module name="middleware" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="coupon-calculation-api" target="1.8" />
+      <module name="coupon-calculation-impl" target="1.8" />
+      <module name="coupon-calculation-serv" target="1.8" />
+      <module name="coupon-customer-api" target="1.8" />
+      <module name="coupon-customer-dao" target="1.8" />
+      <module name="coupon-customer-impl" target="1.8" />
+      <module name="coupon-customer-serv" target="1.8" />
+      <module name="coupon-template-api" target="1.8" />
+      <module name="coupon-template-dao" target="1.8" />
+      <module name="coupon-template-impl" target="1.8" />
+      <module name="coupon-template-serv" target="1.8" />
+      <module name="middleware" target="1.8" />
+      <module name="SrpingCloudDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SrpingCloudDemo" options="-parameters" />
+      <module name="coupon-calculation-serv" options="-parameters" />
+      <module name="coupon-customer-serv" options="-parameters" />
+      <module name="coupon-template-serv" options="-parameters" />
+      <module name="middleware" options="-parameters" />
+    </option>
+  </component>
+</project>
