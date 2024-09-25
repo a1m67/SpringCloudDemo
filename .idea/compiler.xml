@@ -8,15 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="coupon-customer-dao" />
         <module name="coupon-customer-impl" />
-        <module name="SrpingCloudDemo" />
-        <module name="coupon-calculation-serv" />
         <module name="coupon-calculation-impl" />
-        <module name="coupon-customer-serv" />
         <module name="coupon-calculation-api" />
         <module name="coupon-template-dao" />
-        <module name="coupon-template-serv" />
-        <module name="coupon-template-impl" />
         <module name="coupon-customer-api" />
+        <module name="coupon-template-impl" />
         <module name="coupon-template-api" />
         <module name="middleware" />
       </profile>
@@ -34,14 +30,22 @@
       <module name="coupon-template-impl" target="1.8" />
       <module name="coupon-template-serv" target="1.8" />
       <module name="middleware" target="1.8" />
-      <module name="SrpingCloudDemo" target="1.8" />
+      <module name="SpringCloudDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SrpingCloudDemo" options="-parameters" />
+      <module name="SpringCloudDemo" options="-parameters" />
+      <module name="coupon-calculation-api" options="-parameters" />
+      <module name="coupon-calculation-impl" options="-parameters" />
       <module name="coupon-calculation-serv" options="-parameters" />
+      <module name="coupon-customer-api" options="-parameters" />
+      <module name="coupon-customer-dao" options="-parameters" />
+      <module name="coupon-customer-impl" options="-parameters" />
       <module name="coupon-customer-serv" options="-parameters" />
+      <module name="coupon-template-api" options="-parameters" />
+      <module name="coupon-template-dao" options="-parameters" />
+      <module name="coupon-template-impl" options="-parameters" />
       <module name="coupon-template-serv" options="-parameters" />
       <module name="middleware" options="-parameters" />
     </option>
